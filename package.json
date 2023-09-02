@@ -1,0 +1,19 @@
+{
+  "name": "wikipediadiscography",
+  "version": "1.0.0",
+  "description": "Web scrapes Wikipedia, or relies on stored JSON values, to provide reference data on musical artist discographies rendered as an HTML report.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/wikipediadiscography.git"
+  },
+  "author": "James Kelleher",
+  "license": "ISC"
+}
