@@ -195,8 +195,11 @@ app.get(
         var html_page =
 
             //----------------------------------------------------------------------------------
-	        // Head:
-	        "<!DOCTYPE html><html><head><title>Wikipedia Discography Reader</title>" +
+	    // Head:
+	    "<!DOCTYPE html><html>" +             
+            "<meta id='viewport' name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0'>" +            
+            "<head><title>Wikipedia Discography Reader</title>" +
+
             "<script>" +
                 nodeJsFileServices.readFileSync("WorkingWebBrowserServices.js", "utf8") +
             "</script>" +
