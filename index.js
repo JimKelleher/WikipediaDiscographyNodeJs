@@ -214,7 +214,7 @@ app.get(
  	        '<div class="BannerDiv"><br><table><tbody><tr>' +
                 '<td class="BannerTD"><img src="wikipedia.png" alt="Wikipedia Logo"></td>' +
                 '<td class="BannerTD BannerText">Discography Reader</td></tr></tbody></table></div><br>' +
-            '<button class="button" onClick="open_popup_window(\'http://www.workingweb.info/WikipediaDiscographyNodeJsAbout\', true, \'no\', \'no\', 505, 640);">About</button><br><br>' +
+            '<button class="button" onClick="open_popup_window(\'https://www.workingweb.info/WikipediaDiscographyNodeJsAbout\', true, \'no\', \'no\', 505, 640);">About</button><br><br>' +
  	        artists_discographies_string +
  	        "</body></html>";
 
